@@ -13,7 +13,7 @@
 
 
 
-## Thanks a lot to these people:
+## Thanks a lot to these articles:
 
    https://book.hacktricks.xyz/pentesting-web/sql-injection/postgresql-injection/rce-with-postgresql-extensions
 
