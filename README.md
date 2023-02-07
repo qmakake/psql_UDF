@@ -39,9 +39,7 @@ CentOS
     
     yum install postgresql-devel
 
-    
-    
-    
+
     make
 
     python psql_so_loader_auto_v2.py
