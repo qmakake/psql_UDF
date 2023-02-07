@@ -11,13 +11,22 @@ psql_so_loader_auto_v2.py (the same script but with socket server for reverse sh
 server_for_pg.py (just alone socket server for reverse shell)
 
 
+
+
 Thanks a lot those people:
 
 https://book.hacktricks.xyz/pentesting-web/sql-injection/postgresql-injection/rce-with-postgresql-extensions
+
 https://book.hacktricks.xyz/pentesting-web/sql-injection/postgresql-injection/big-binary-files-upload-postgresql
+
 https://github.com/nixawk/pentest-wiki/blob/master/2.Vulnerability-Assessment/Database-Assessment/postgresql/postgresql_hacking.md
+
 https://gist.github.com/0xabe-io/916cf3af33d1c0592a90
+
 https://xakep.ru/2020/04/14/python-reverse-shell/#toc03.1
+
+
+
 
 USAGE:
 
