@@ -35,20 +35,29 @@ python psql_so_loader_auto_v2.py [-h] [-p PASSWORD] [-u USERNAME] [-d DATABASE] 
 This is parser arguments
 
 options:
-  -h, --help            show this help message and exit
-  -p PASSWORD, --password PASSWORD
+ 
+ -h, --help            show this help message and exit
+ 
+ -p PASSWORD, --password PASSWORD
                         pass for postgresql
-  -u USERNAME, --username USERNAME
+ 
+ -u USERNAME, --username USERNAME
                         user for postgresql
-  -d DATABASE, --database DATABASE
+ 
+ -d DATABASE, --database DATABASE
                         database for postgresql
-  -H HOSTNAME, --hostname HOSTNAME
+ 
+ -H HOSTNAME, --hostname HOSTNAME
                         hostname or IP for postgresql
-  -P PORT, --port PORT  database for postgresql
-  -rh RHOST, --rhost RHOST
+ 
+ -P PORT, --port PORT  database for postgresql
+ 
+ -rh RHOST, --rhost RHOST
                         ip of host listen reverse
-  -rp RPORT, --rport RPORT
+ 
+ -rp RPORT, --rport RPORT
                         port of host listen reverse
-  -f FILENAME, --filename FILENAME
+ 
+ -f FILENAME, --filename FILENAME
                         file name of lib.so
 
