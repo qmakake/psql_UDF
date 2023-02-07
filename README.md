@@ -27,14 +27,16 @@
    
    
    
-##Quick start:
+## Quick start:
 
     pip install -r requirements.txt
 
 Debian
+    
     apt install postgresql-server-dev-all
 
 CentOS
+    
     yum install postgresql-devel
 
     make
