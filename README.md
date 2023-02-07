@@ -13,7 +13,7 @@
 
 
 
-## Thanks a lot those people:
+## Thanks a lot to these people:
 
    https://book.hacktricks.xyz/pentesting-web/sql-injection/postgresql-injection/rce-with-postgresql-extensions
 
@@ -49,10 +49,8 @@ $ python psql_so_loader_auto_v2.py
 
 
 ## USAGE:
-
+```
 python psql_so_loader_auto_v2.py [-h] [-p PASSWORD] [-u USERNAME] [-d DATABASE] [-H HOSTNAME] [-P PORT] [-rh RHOST] [-rp RPORT] -f FILENAME
-
-options:
  
     -h, --help            show this help message and exit
  
@@ -78,4 +76,4 @@ options:
  
     -f FILENAME, --filename FILENAME
                         file name of lib.so
-
+```
