@@ -48,7 +48,7 @@ $ python psql_so_loader_auto_v2.py
 
 
 
-## USAGE:
+## Usage:
 ```
 python psql_so_loader_auto_v2.py [-h] [-p PASSWORD] [-u USERNAME] [-d DATABASE] [-H HOSTNAME] [-P PORT] [-rh RHOST] [-rp RPORT] -f FILENAME
  
