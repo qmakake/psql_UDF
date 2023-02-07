@@ -24,6 +24,22 @@
    https://gist.github.com/0xabe-io/916cf3af33d1c0592a90
 
    https://xakep.ru/2020/04/14/python-reverse-shell/#toc03.1
+   
+   
+   
+##Quick start:
+
+    pip install -r requirements.txt
+
+Debian
+    apt install postgresql-server-dev-all
+
+CentOS
+    yum install postgresql-devel
+
+    make
+
+    python psql_so_loader_auto_v2.py
 
 
 
