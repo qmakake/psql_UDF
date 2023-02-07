@@ -33,15 +33,17 @@
 
 Debian
     
-    # apt install postgresql-server-dev-all
+`# apt install postgresql-server-dev-all`
 
 CentOS
     
-    # yum install postgresql-devel
+`# yum install postgresql-devel`
 
-    $ make
+```
+$ make
 
-    $ python psql_so_loader_auto_v2.py
+$ python psql_so_loader_auto_v2.py
+```
 
 
 
